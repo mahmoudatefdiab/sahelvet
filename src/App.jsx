@@ -7,8 +7,8 @@ import About from './components/pages/about.jsx'
 import Courses from './components/pages/courses.jsx'
 import Contact from './components/pages/contact.jsx'
 import ApplyForm from "./components/pages/ApplyForm.jsx";
+import AlQouz from "./AlQouz.jsx"; // عدلت الامتداد صح
 
- 
 const App = () => {
   return (
     <Router>
@@ -21,6 +21,7 @@ const App = () => {
             <Route path="/courses" element={<Courses />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/apply-form" element={<ApplyForm />} />
+            <Route path="/al-qouz" element={<AlQouz />} /> {/* ✅ صفحة القوز */}
           </Routes>
         </main>
         <Footer />
