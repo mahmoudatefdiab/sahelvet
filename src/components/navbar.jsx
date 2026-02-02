@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
  import logo from '../assets/1.png';
 import { siteConfig } from './config.js';
-
+ {/* to: "/about", label: "عن الصيدليه" */}
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
     { to: "/", label: "الرئيسيه" },
-    { to: "/about", label: "عن الصيدليه" },
+   
     { to: "/courses", label: "خدماتنا" },
     { to: "/contact", label: "اتصل بنا" }
   ];
