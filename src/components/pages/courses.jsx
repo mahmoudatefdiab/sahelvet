@@ -13,7 +13,7 @@ import {
   CheckCircle 
 } from 'lucide-react';
 import { siteConfig } from '../../components/config';
-import servicesBg from '../../assets/homepage1.png'; // تأكد من وجود صورة مناسبة
+import servicesBg from '../../assets/camles.png'; // تأكد من وجود صورة مناسبة
 
 const Services = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -29,48 +29,29 @@ const Services = () => {
       category: 'medical',
       description: 'فحص سريري كامل للحيوان لتشخيص الأمراض بدقة.',
       icon: Stethoscope,
-      price: '50 ر.س'
-    },
+     },
     {
       id: 2,
       title: 'تطعيمات وتحصين',
       category: 'prevention',
       description: 'جدول تطعيمات كامل للقطط والكلاب والمواشي.',
       icon: Syringe,
-      price: 'حسب النوع'
-    },
+     },
     {
       id: 3,
       title: 'صرف الأدوية البيطرية',
       category: 'pharmacy',
       description: 'توفير كافة الأدوية العلاجية والمكملات الغذائية.',
       icon: Pill,
-      price: 'متغير'
-    },
-    {
-      id: 4,
-      title: 'عمليات جراحية صغرى',
-      category: 'surgery',
-      description: 'تعقيم، خياطة جروح، وعمليات الأنسجة الرخوة.',
-      icon: Scissors,
-      price: 'يبدأ من 200'
-    },
+     },
+     
     {
       id: 5,
-      title: 'زيارة منزلية',
-      category: 'medical',
-      description: 'خدمة الكشف والعلاج في موقعك (للحالات الصعبة).',
-      icon: Truck,
-      price: 'حسب الموقع'
-    },
-    {
-      id: 6,
       title: 'متابعة الحمل والولادة',
       category: 'medical',
       description: 'سونار ومتابعة ورعاية المواليد الجدد.',
       icon: Activity,
-      price: '100 ر.س'
-    },
+     },
   ];
 
   // 2. استخراج التصنيفات
@@ -117,11 +98,8 @@ const Services = () => {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full text-right">
-          <div className="inline-block px-4 py-1.5 mb-6 bg-green-600/20 backdrop-blur-md border border-green-600/30 rounded-full">
-            <span className="text-green-400 text-sm font-bold tracking-wide">
-              رعاية متكاملة لحيوانك الأليف
-            </span>
-          </div>
+             
+       
           <h1 className="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight">
             خدماتنا <span style={{ color: siteConfig.colors.primary }}>البيطرية</span>
           </h1>
