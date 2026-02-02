@@ -296,7 +296,7 @@ const Home = () => {
                       </button>
                     </div>
                     <p className="text-xs text-green-600 mt-2 font-bold h-4">
-                      {isCopied ? 'تم نسخ الكود!' : 'اضغط على الكود لنسخه'}
+                      {isCopied ? '      ' : 'خذ لقطه للشاشه واظهرها  للطبيب عند الدفع'}
                     </p>
                   </div>
                 </div>
