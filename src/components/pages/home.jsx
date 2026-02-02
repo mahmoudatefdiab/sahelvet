@@ -121,10 +121,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* الجزء النصي (يمين) */}
             <div className="space-y-8 text-right order-2 lg:order-1">
-              <div className="flex items-center gap-2 text-green-700 font-bold text-sm">
-                <Clock size={16} />
-                <span>مفتوح الآن - نخدمكم على مدار الساعة</span>
-              </div>
+             
 
               <h1 className="text-5xl md:text-7xl font-black leading-tight text-gray-900 drop-shadow-sm">
                 صيدلية <span style={{ color: siteConfig.colors.primary }}>الساحل البيطرية</span>
@@ -208,7 +205,7 @@ const Home = () => {
                     </div>
                   </div>
                   <a
-                    href="https://goo.gl/maps/PlaceLinkHere"
+                    href="https://www.google.com/maps/place/%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%B1%D9%8A%D8%A9%E2%80%AD/@18.9417237,41.3242137,133m/data=!3m1!1e3!4m6!3m5!1s0x15e4210052c7271b:0xd77558998e7fbccb!8m2!3d18.941566!4d41.324549!16s%2Fg%2F11mclznsbm!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D"
                     target="_blank"
                     rel="noreferrer"
                     className="text-xs font-bold hover:underline block text-center mt-2 text-blue-600"
