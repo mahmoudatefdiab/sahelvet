@@ -20,10 +20,7 @@ const Footer = () => {
             <p className="text-sm leading-relaxed text-gray-400 mb-4">
               صيدلية الساحل البيطرية، وجهتكم الموثوقة للرعاية البيطرية المتكاملة. نوفر الأدوية، اللقاحات، والاستشارات الطبية لضمان صحة حيواناتكم.
             </p>
-            <div className="flex items-center gap-2 text-green-500 text-sm font-bold">
-              <Clock size={16} />
-              <span>مفتوح على مدار الساعة</span>
-            </div>
+             
           </div>
 
           {/* ===== روابط سريعة ===== */}
